@@ -14,3 +14,4 @@ class StoryOutput(BaseModel):
     #moral: str = Field(..., description="The moral or lesson of the story")
     #age_group: str = Field(..., description="The target age group for the story")
     word_count: int = Field(..., description="Total word count of the story") 
+    # test
