@@ -82,13 +82,13 @@ class StoryWritingAgent:
                     {{
                         "page_number": {max_pages + 1},
                         "content": "End page with tag line",
-                        "image_prompt": "End page illustration prompt"
+                        "image_prompt": "None"
                     }}
                 ],
                 "word_count": total_word_count
             }}
             """,
-            expected_output="A complete product marketing content with cover page, content pages, and end page in JSON format",
+            expected_output="A complete product marketing content with cover page, content pages and end page in JSON format",
             agent=agent
         )
 

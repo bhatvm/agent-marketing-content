@@ -1,3 +1,5 @@
 server/__pycache__/
+serer/agents/__pycache__/
 server/.env
 venv
+output
